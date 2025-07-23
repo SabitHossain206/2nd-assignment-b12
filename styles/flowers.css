@@ -175,4 +175,71 @@ color: rgba(0, 0, 0, 0.5);
     font-size: 3.125rem;
     margin-top: 0;
     margin-bottom: 16px;
-}
+} 
+ /* cart section */
+ .bg-bloom{
+    background-image: url(../assets/deal-bloom.png);
+ }
+ .bg-ana{
+    background-image: url(../assets/deal-ana.png);
+ }
+ .bg-zabo{
+    background-image: url(../assets/deal-zabo.png);
+ }
+
+ .flower-container{
+    display: flex;
+    gap: 28px;
+    /* align-items: center; */
+    margin-bottom: 100px;
+    /* border: 1px solid tomato; */
+ }
+ .left-column{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    flex: 1;
+ }
+ .right-column{
+    flex: 2;
+ }
+ .flower-container-cart{
+     position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+ .cart-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+ }
+ .cart-content h2{
+    font-size: 1.25rem;
+    font-weight: bold;
+ }
+ .cart-content a{
+    color: white;
+ }
+ .cart-large{
+    height: 423px;
+ }
+ .right-column{
+   
+ }
+ .cart-large{
+     border-radius: 22px;
+ }
+
+  .cart-large h2{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+    padding: 170px 125px 0px 140px;
+  }
