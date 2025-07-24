@@ -243,3 +243,132 @@ color: rgba(0, 0, 0, 0.5);
     
     padding: 170px 125px 0px 140px;
   }
+
+  /* input feild area styles */
+  .input-dimension{
+    max-width: 1440px;
+    margin: 0 aut0;
+  }
+  .backgrond-container{
+    background-image: url( ../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+     height:560px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     /* border: 1px solid rgba(7, 51, 79, 0.4); */
+  }
+   .backgrond-container h1{
+    font-weight: bold;
+    font-size: 3.125rem;
+    color: white;
+   }
+  .input-overlay{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+  }
+
+
+  /* form styles */
+  .from-container{
+            display: flex;
+          
+            gap: 0px; 
+            width: 100%;
+            max-width: 830px; 
+          
+        }
+
+        .form-input {
+            width: 75%;
+            padding: 12px 15px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+
+        
+        }
+
+        .from-button {
+            width: 25%;
+            padding: 19px 53px;
+            background-color: rgba(233, 90, 8, 1); 
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+ /* footer section styles */
+ .footer-dimension{
+    max-width: 1120px;
+    height: 250px;
+    margin: 0 auto;
+    border: 1px solid tomato;
+ }
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    margin-top: 50px;
+ }
+ .footer-about{
+    max-width: 360px;
+
+ }
+ .footer-about p{
+    font-weight: 400px;
+    font-size: 1.375rem;
+ }
+  
+ .footer-nav-1{
+    /* row-gap: 110px; */
+    height: 100%;
+    
+ }
+ .footer-nav-body-1{
+    list-style: none;
+    margin: 0;
+    /* text-align: center;
+    align-items: center; */
+    justify-content: center;
+    padding: 0;
+    
+ }
+ .footer-nav-body-2{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ .footer-nav-items-1{
+    /* max-width: 100%; */
+    margin-top: 0;
+    margin-bottom: 30px;
+ }
+ .footer-nav-items-2{
+    margin-top: 0;
+    margin-bottom: 30px;
+ }
+ .footer-nav-links-1{
+    text-decoration: none;
+ }
+ .footer-nav-links-2{
+    text-decoration: none;
+ }
+
+ /* icons styles */
+ .footer-icons img {
+   
+    margin-right: 10px;
+    /* align-items: center;
+    text-align: center; */
+    justify-content: center;
+ }
