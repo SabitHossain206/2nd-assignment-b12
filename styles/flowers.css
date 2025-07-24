@@ -312,7 +312,7 @@ color: rgba(0, 0, 0, 0.5);
     max-width: 1120px;
     height: 250px;
     margin: 0 auto;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
  }
 .footer-container{
     display: flex;
@@ -365,10 +365,28 @@ color: rgba(0, 0, 0, 0.5);
  }
 
  /* icons styles */
- .footer-icons img {
+ .footer-icons{
    
-    margin-right: 10px;
-    /* align-items: center;
-    text-align: center; */
+   display: flex;
+   flex-wrap: wrap;
+   align-items: start;
+   /* justify-content: center; */
+   gap: 22px;
+   
+
+ }
+ .footer-img{
+
+    align-items: start;
+    display: flex;
     justify-content: center;
+     gap: 24px;
+     height: 36px;
+     width: 36px;
+ }
+ .footer-img img{
+     width: 100%;
+            height: 100%;
+            /* object-fit: cover; Crop image to cover the area without distortion */
+           
  }
